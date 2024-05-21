@@ -2,8 +2,9 @@
 
 The project is focused on optimising a greyscale Sobel filter implemented in C. The Sobel filter is used for edge detection in image processing. ​The project applies the filter to a 4096x4096 grayscale image.
 
-It was developed as a Lab assignment for the "ECE415 High Performance Computing" course, in the University of Thessaly, in collaboration with Charalampos Karaiskos, over the course of a week. Our development was based on the requirements set by [Lab1.pdf](https://github.com/kyspyridon/Sobel_filter_optimisation/blob/main/Lab1.pdf).
+It was developed as a Lab assignment for the "ECE415 High Performance Computing" course, in the University Of Thessaly, in collaboration with Charalampos Karaiskos, over the course of a week. Our development was based on the requirements set by [Lab1.pdf](https://github.com/kyspyridon/Sobel_filter_optimisation/blob/main/Lab1.pdf).
 
+# Naming Convention
 All source file directories follow a specific naming convention. A number indicating the order in which the optimizations were performed during the projects development, followed by the name of the optimization itself meaning that each test builds on top of each predecessor. All optimisations were performed in an additive manner, with each test building on the previous ones.​ The results showed performance improvements for each optimisation. ​
 
 Our full work can be seen in the report file [report.pdf](https://github.com/kyspyridon/Sobel_filter_optimisation/blob/main/report.pdf). Our numerical results can be viewed in detail in [results.xlsx](https://github.com/kyspyridon/Sobel_filter_optimisation/blob/main/results.xlsx).
@@ -29,7 +30,9 @@ make run
 make image
 make excel
 ```
+
 Use ```make all``` to build the executables under the build/ directory and ```make run``` to perform the tests. Each test is performed 22 times. ```make excel``` discards the best and worst performances as outliers and creates an Excel spreadsheet by parsing the results under the output/ directory. ```make image``` converts the generated .grey files to .jpg using ImageMagick.
+
 
 # Notes
 The scripting suite was developed using Python 3.9 and Bash. Certain make commands require the installations of a few packages.
@@ -40,3 +43,4 @@ apt-get install ImageMagick
 apt-get install python3.9
 pip install openpyxl
 pip install pandas
+```

@@ -6,12 +6,12 @@
 # Project: Optimizing the performance of a grayscale Sobel    #
 #          filter                                             #
 #                                                             #
-# File Description: Makefile to be called through the 				#
-#										run_make.sh script. It produces an 				#
-#  							 		executable file depending on a varying 		#
-# 									set of optimization parameters. It is   	#
-# 									important that the Makefile is inside the #
-# 									sources subdirectory to function properly #
+# File Description: Makefile to be called through the         #
+#                   run_make.sh script. It produces an        #
+#                   executable file depending on a varying    #
+#                   set of optimization parameters. It is     #
+#                   important that the Makefile is inside the #
+#                   sources subdirectory to function properly #
 #                                                             #
 # Authors: Kyritsis Spyridon     AEM: 2697                    #
 #          Karaiskos Charalampos AEM: 2765                    #
@@ -19,9 +19,9 @@
 
 
 # All parameters have default values in case the make is called #
-# in standalone form i.e. not from the run_make.sh script 			#
-# In case the Makefile is called from the run_make.sh script 		#
-# the default parameters are overriden by the script's ones 		#
+# in standalone form i.e. not from the run_make.sh script       #
+# In case the Makefile is called from the run_make.sh script 	#
+# the default parameters are overriden by the script's ones 	#
 
 # Directory Variables
 SOURCE_DIR=source

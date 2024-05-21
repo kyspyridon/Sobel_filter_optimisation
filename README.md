@@ -29,6 +29,7 @@ make run
 make image
 make excel
 ```
+Use ```make all``` to build the executables under the build/ directory and ```make run``` to perform the tests. Each test is performed 22 times. ```make excel``` discards the best and worst performances as outliers and creates an Excel spreadsheet by parsing the results under the output/ directory. ```make image``` converts the generated .grey files to .jpg using ImageMagick.
 
 # Notes
 The scripting suite was developed using Python 3.9 and Bash. Certain make commands require the installations of a few packages.
